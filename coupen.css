@@ -1,11 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 .body-wrapping{
     width: 100%;
     height: auto;
     background-color: #fafafa;
     padding: 35px !important;
     justify-content: space-between;
-    font-family: Arial, sans-serif;
+    font-family: "Rubik", serif;
     }
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 0px 20px;
+        width: 100% !important;
+        background-color: white;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: #e74c3c;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 16px;
+    }
+    .logo img {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+    }
+    .logo span {
+        font-size: 12px;
+        font-weight: 400;
+        color: #000;
+    }
+    .nav-links {
+        display: flex;
+        align-items: center;
+        margin-left: 34px;
+        flex-grow: 1;
+    }
+    .nav-links a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .nav-links .highlight {
+        display: flex;
+        align-items: center;
+        background-color: #f5f5f5;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .nav-links .highlight img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #f5f5f5;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-right: 20px;
+        flex-grow: 1;
+    }
+    .search-bar input {
+        border: none;
+        background: none;
+        outline: none;
+        flex-grow: 1;
+        font-size: 16px;
+        color: #888;
+    }
+    .search-bar i {
+        color: #888;
+    }
+    .auth-buttons {
+        display: flex;
+        align-items: center;
+    }
+    .auth-buttons a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .auth-buttons .submit-btn {
+        background-color: #e74c3c;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .navbar{
+     background-color: #fff;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 0 hsla(0, 0%, 82%, .5);
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100vw;
+        z-index: 3;
+    }
+
     
     .lefit{
         /* background-color: red; */
@@ -494,3 +596,151 @@
         margin-right: 10px;
     }
     /* /// */
+
+    .foter {
+        background-color: #eeeeee;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .foter .logo-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .foter .logo-section h2 {
+        font-family: "Rubik", serif;
+        font-size: 24px;
+        color: #d34d43;
+        margin: 0;
+    }
+    .foter .logo-section h2 span {
+        font-family: "Rubik", serif;
+        font-size: 14px;
+        font-weight: normal;
+        color: #333;
+    }
+    .foter .social-icons {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .foter .social-icons img {
+        width: 24px;
+        height: 24px;
+    }
+    .foter .note {
+        font-family: "Rubik", serif;
+        font-size: 12px;
+        color: #666;
+        margin-top: 10px;
+    }
+    .foter .links {
+        display: flex;
+        gap: 20px;
+    }
+    .foter .links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .foter .links ul li {
+        margin: 5px 0;
+    }
+    .foter .links ul li a {
+        text-decoration: none;
+        color: #333;
+        font-family: "Rubik", serif;
+        font-size: 14px;
+    }
+    .foter .links ul li a:hover {
+        text-decoration: underline;
+    }
+    .foter .download-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foter .download-section p {
+        font-family: "Rubik", serif;
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .foter .download-section .browser-icons {
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
+    }
+    .foter .download-section .browser-icons img {
+        width: 24px;
+        height: 24px;
+    }
+    .foter .download-section .app-icons {
+        display: flex;
+        gap: 10px;
+    }
+    .foter .download-section .app-icons img {
+        width: 120px;
+        height: auto;
+    }
+    /* ************************* */
+    
+    .footer-extension {
+        background-color: #e8e8e8;
+        padding: 15px 20px;
+        text-align: center;
+        font-family: "Rubik", serif;
+        font-size: 14px;
+        color: #666;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-extension .popular-sites {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .footer-extension .popular-sites img {
+        width: 24px;
+        height: 24px;
+    }
+    .footer-extension .links {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+    .footer-extension .links a {
+        text-decoration: none;
+        color: #333;
+        font-family: "Rubik", serif;
+        font-size: 14px;
+    }
+    .footer-extension .links a:hover {
+        text-decoration: underline;
+    }
+    .footer-extension .copyright {
+        font-family: "Rubik", serif;
+        font-size: 12px;
+        color: #999;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+    .footer-extension .notice {
+        font-family: "Rubik", serif;
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+        max-width: 700px;
+        line-height: 1.5;
+    }
+    .spacing{
+        padding: 0 !important;
+        margin: 0 !important;
+    }

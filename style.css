@@ -1,13 +1,5 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-}
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-} */
 body{
     margin: 0px !important;
     padding: 0px !important;
@@ -22,6 +14,7 @@ body{
 .logo {
     display: flex;
     align-items: center;
+    font-family: "Rubik", serif;
     font-size: 24px;
     font-weight: 700;
     color: #e74c3c;
@@ -33,6 +26,7 @@ body{
     margin-right: 5px;
 }
 .logo span {
+    font-family: "Rubik", serif;
     font-size: 12px;
     font-weight: 400;
     color: #000;
@@ -46,6 +40,7 @@ body{
     margin: 0 10px;
     text-decoration: none;
     color: black;
+    font-family: "Rubik", serif;
     font-size: 16px;
 }
 .nav-links .highlight {
@@ -74,6 +69,7 @@ body{
     background: none;
     outline: none;
     flex-grow: 1;
+    font-family: "Rubik", serif;
     font-size: 16px;
     color: #888;
 }
@@ -88,6 +84,7 @@ body{
     margin: 0 10px;
     text-decoration: none;
     color: black;
+    font-family: "Rubik", serif;
     font-size: 16px;
 }
 .auth-buttons .submit-btn {
@@ -116,7 +113,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 40px 90px;
     background-color: #ffffff;
     border-radius: 10px;
     background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA3gMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAhEAEBAQEAAwEAAgMBAAAAAAAAARECEiExQQNRYXGBIv/EABgBAQEBAQEAAAAAAAAAAAAAAAEAAgME/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERMRIC/9oADAMBAAIRAxEAPwD10HQ9LoQM5FqPi39jS3efiZF56ZorPCvxVhYkihdkTSSKmVKJOLEh1JwpGnic5WpEjTmYckhs2oi69qTQkWT+kdTfnpqmxqJheMTeXR4leW/SR/Hx+1vynjn3/hr6jFqRaIXQCPDkVzyvxyC0amcnhj7RqI5DnKswJnfSavv8Q1EmlTpUkgAUIqQQwjI03rEjtK9p3SWBV61IgJVBh8mEWFYYSHMwddF1cmJqQBNOePXs8TXk/o4U51kpyqciDykv0BWTEW4XmjrrVNMLqp0UNtFUqqShAcCQPS0akLUgrSgcT9VCgqc7RIplAAACl+KwqkilmqVxCT/j4ayYmXIm94z0NOfkLqjc5mI6ugH5Us0j0k007UbtKMYqcn4+vq1IsLFlfiSCV/wrCU0jKz0UVuiQSKwoYrmFFxm1AYcPACwzweK1JKqqakmLnqFD1IammeJC9aQw0gVotTpI3WnPH6nmLFFXnpNioM96yGdJdiaSKmmRRYmxRks8PmK+qkWopyqTRI055xm0JnJ5/SwzoT4l1VVFKLpKqRhIUwUmLSuTUmdpXoESSpCw8SVKpEXyKKqUdXBfSOrrKFpaQMQ0QQUoBKp8JEipNKNOPjNFPnnFFaIyDK3BqOuvakR9dakvptID4aakLfZyb9HPO+78X9voai55XIPhBObQUPXRpcgKU0gCPQBpUBIAaKkInpSKSIqIi56SVFy4y1UosDTyHknQzgPqpMrSgIIaQHPOnJrSTILUWZMP58MqyCtIrU+/ytYcZFS9nI20qRVH4z6ugKl1UTxGmRIpBipBfQ1J8SUXXopNzKzn0+/eFCViEOfdSUZGAZ6RJHozRIucgJPNXOFYz6Wp45xVNNHQB0C6volnfoFS1Cz1UY3oc9+46YW9+IF7l/SoxK5vvG3M1z81tx0z9QVrOcLuejllLv4wIzqOl1FsjcMSfwvL+sTetaKhPSYaTSGidKlAVIeFpaE04aT054qdM2B0am1l5VUZwYsgEh+IvWqtsRd690wpoOp1suZP7P8AZB1hO3/0L1QEmnNXzQGKmstPQGAjq+mPVoDUJSmA2hpgJGcAZqUcACM4AAZykBQudWnAGUvibfbP+X114z5CAnQhIDpGn//Z);
@@ -126,6 +123,7 @@ body{
     max-width: 50%;
 }
 .text-section h1 {
+    font-family: "Rubik", serif;
     font-size: 32px;
     color: #333333;
     margin: 0;
@@ -134,6 +132,7 @@ body{
     color: #ff5a5f;
 }
 .text-section p {
+    font-family: "Rubik", serif;
     font-size: 16px;
     color: #666666;
     margin: 20px 0;
@@ -164,9 +163,7 @@ body{
     /* UPPER END */
 /* ************************************************** */
 
-.centering{
-    margin-right: 103px;
-}
+
 .example {
     background-color: #fff;
     border-radius: 10px;
@@ -217,6 +214,7 @@ body{
   .verified span {
     color: #f56400;
     font-weight: bold;
+    font-family: "Rubik", serif;
     font-size: 10px;
   }
   /* .tester {
@@ -246,11 +244,13 @@ body{
 }
 .tester .name {
     font-weight: bold;
+    font-family: "Rubik", serif;
     font-size: 10px;
     
 } */
 
 .cent p{
+    font-family: "Rubik", serif;
     font-size: 11px;
     margin-top: 8px;
     line-height: 10px;
@@ -258,6 +258,7 @@ body{
 }
 .time{
     color: #888;
+    font-family: "Rubik", serif;
     font-size: 10px;
     
 }
@@ -317,6 +318,7 @@ body{
 }
 .heading{
     color: #222;
+    font-family: "Rubik", serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 30px;
@@ -333,16 +335,19 @@ body{
     display: flex;
     justify-content: center;
     gap: 5px;
+    width: 100%; 
+    margin-left: -20px;
 }
-.setting{
-    margin-left: 20px;
-}
+/* .setting{
+    margin-left: 60px;
+} */
 .cord {
     border-radius: 5px;
     overflow: hidden;
     width: 390px !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 280px;
+    /* background-color: #03a9f4; */
 }
 .cord img {
     height: 160px;
@@ -369,9 +374,10 @@ body{
 .cord-content .logo img {
     width: 50px;
     height: 50px;
-    margin-right: 10px;
+    margin-right: 10px; 
 }
 .cord-content .title {
+    font-family: "Rubik", serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
@@ -389,6 +395,7 @@ body{
     display: flex;
     align-items: center;
     gap: 5px;
+    font-family: "Rubik", serif;
     font-size: 15px;
 }
 
@@ -402,11 +409,14 @@ body{
 
 .wrapper {
     max-width: 1100px;
+    margin-left: 50px;
     width: 100%;
     position: relative;
 
 }
-
+.view a i {
+    font-size: 15px;
+}
 .wrapper i {
     height: 40px;
     width: 40px;
@@ -500,6 +510,7 @@ body{
 
 .hard span {
     color: #6a6d78;
+    font-family: "Rubik", serif;
     font-size: 1.31rem;
 
 }
@@ -536,6 +547,7 @@ body{
     background-color: #ea4b4d;
     border-radius: 4px;
     color: #fff;
+    font-family: "Rubik", serif;
     font-size: 12px;
     font-weight: 500;
     height: 20px;
@@ -546,6 +558,7 @@ body{
 }
 .title {
     color: #333;
+    font-family: "Rubik", serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -553,6 +566,7 @@ body{
 }
 .description {
     color: #333;
+    font-family: "Rubik", serif;
     font-size: 14px;
     line-height: 19px;
 }
@@ -564,7 +578,7 @@ body{
     
 }
 .cont {
-    max-width: 900px;
+    width: 955px;
     margin: 0 auto;
 }
 .header-cont {
@@ -574,18 +588,20 @@ body{
     margin-bottom: 20px;
 }
 .header h1 {
+    font-family: "Rubik", serif;
     font-size: 24px;
     margin: 0;
 }
 .header a {
     color: #ff4d4d;
     text-decoration: none;
+    font-family: "Rubik", serif;
     font-size: 14px;
 }
 /* *************************** */
 
 .deal-container {
-    max-width: 800px;
+    max-width: 200px !important;
     margin: 0 auto;
 }
 
@@ -597,6 +613,7 @@ body{
 }
 
 .deal-header h2 {
+    font-family: "Rubik", serif;
     font-size: 24px;
     font-weight: 600;
 }
@@ -608,12 +625,17 @@ body{
 }
 
 .deal-card {
-    background-color: white;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: relative;
+        /* background-color: blue; */
+        border: 1px solid #ddd;
+        width: 955px !important;
+        padding: 15px;
+        /* margin-left: 10px !important; */
+        /* padding-left: 0px !important; */
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: relative;
+        left: -12px;
+        max-height: 250px;
 }
 
 .deal-new {
@@ -622,6 +644,7 @@ body{
     left: 4px;
     background-color: #007bff;
     color: white;
+    font-family: "Rubik", serif;
     font-size: 12px;
     font-weight: 500;
     padding: 1px 8px;
@@ -634,9 +657,10 @@ body{
 }
 
 .deal-content img {
-    width: 120px;
-    height: auto;
+    width: 150px;
+    height: 150px;
     margin-right: 20px;
+    margin-top: 30px;
 }
 
 .deal-info {
@@ -644,6 +668,7 @@ body{
 }
 
 .deal-info h3 {
+    font-family: "Rubik", serif;
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 600;
@@ -651,6 +676,7 @@ body{
 
 .price {
     margin: 5px 0;
+    font-family: "Rubik", serif;
     font-size: 16px;
     font-weight: bold;
 }
@@ -703,6 +729,7 @@ body{
     background: none;
     border: none;
     cursor: pointer;
+    font-family: "Rubik", serif;
     font-size: 16px;
     margin-left: 10px;
 }
@@ -713,14 +740,27 @@ body{
 
 .deal-footer {
     margin-top: 20px;
+    font-family: "Rubik", serif;
     font-size: 12px;
     color: #888;
     text-align: left;
 }
 .right-border{
     border-right: 1px solid #ccc;
-    height: 150px;
+    height: 249px;
     margin-right: 20px;
+    /* margin-bottom: 100px !important; */
+    margin-top: -15px !important;
+}
+/* .view{
+    max-width: 955px !important;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+    /* background-color: #007bff ; */
+.fixing{
+    display: flex;
+    justify-content: space-between;
 }
 /* ************** */
 
@@ -748,7 +788,8 @@ body{
     padding: 15px;
 }
 .card-content h3 {
-    font-size: 18px;
+font-family: "Rubik", serif;    
+font-size: 18px;
     margin: 0 0 10px 0;
     color: #fff;
     position: absolute;
@@ -768,16 +809,19 @@ body{
     margin-right: 10px;
 }
 .card-footer .author {
-    font-size: 14px;
+font-family: "Rubik", serif;    
+font-size: 14px;
     color: #333;
 }
 .card-footer .date {
-    font-size: 14px;
+font-family: "Rubik", serif;    
+font-size: 14px;
     color: #999;
     margin-left: 10px;
 } */
 .title-sidebar {
     color: #222;
+    font-family: "Rubik", serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
@@ -786,21 +830,29 @@ body{
 }
 
 .card {
-    background-color: white;
+    /* background-color: black; */
+    position: relative;
+    left: -18px;
     border-radius: 10px;
+    /* margin-top: 2px !important; */
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
-    width: 300px;
+    width: 335px;
+    height: 240px;
     overflow: hidden;
     border: none;
 }
+.cardio{
+    margin-top: 40px !important;
+}
 .card img {
     width: 100%;
-    height: 200px;
+    height: 190px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .card-content h2 {
+    font-family: "Rubik", serif;
     font-size: 18px;
     margin: 0;
     color: white;
@@ -812,6 +864,7 @@ body{
     display: flex;
     align-items: center;
     padding: 15px;
+    height: 15%x;
     border-top: none;
 }
 .card-footer img {
@@ -821,10 +874,12 @@ body{
     margin-right: 10px;
 }
 .card-footer .author {
+    font-family: "Rubik", serif;
     font-size: 14px;
     color: #333;
 }
 .card-footer .date {
+    font-family: "Rubik", serif;
     font-size: 14px;
     color: #999;
     margin-left: 5px;
@@ -851,7 +906,8 @@ body{
 }
 .carousil .carousel-item .btn {
 	border-radius: 0;
-	font-size: 12px;
+	font-family: "Rubik", serif;
+    font-size: 12px;
 	text-transform: uppercase;
 	font-weight: bold;
 	border: none;
@@ -863,7 +919,8 @@ body{
 	background: #8c5bff;
 }
 .carousil .carousel-item .btn i {
-	font-size: 14px;
+	font-family: "Rubik", serif;
+    font-size: 14px;
 	font-weight: bold;
 	margin-left: 5px;
 }
@@ -875,7 +932,8 @@ body{
 }
 .carousil .thumb-content {
 	padding: 15px;
-	font-size: 13px;
+	font-family: "Rubik", serif;
+    font-size: 13px;
 }
 .carousel-control-prev, .carousel-control-next {
 	height: 35px;
@@ -886,7 +944,8 @@ body{
 	border: 3px solid rgba(0, 0, 0, 0.8);
 }
 .carousel-control-prev i, .carousel-control-next i {
-	font-size: 15px;
+	
+    font-size: 15px;
 	position: absolute;
 	top: 50%;
 	display: inline-block;
@@ -899,19 +958,23 @@ body{
 	font-weight: bold;
 }
 .carousel-control-prev i {
-	margin-left: -3px;
+	margin-left: 0px;
 }
 .carousel-control-prev {
-	margin-left: -68px;
+    position: absolute;
+    left: -613px;
+    top: 125px;
 }
 .carousel-control-next i {
-	margin-right: -3px;
+	margin-right: 0px;
 }
 .carousel-control-next {
-	margin-right: -64px;
+    position: absolute;
+    left: 700px;
+    top: 125px;
 }
 .carousel-indicators {
-	bottom: -50px;
+	top: 270px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 10px;
@@ -927,8 +990,24 @@ body{
 	background: #555;
 }
 /* ********************** */
-
-.review-card {
+.bg-color{
+    background-color: #fff7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    height: 400px;
+}
+.custom{
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    background-color: #fff;
+    height: 250px;
+}
+/* .review-card { */
     /* background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -946,6 +1025,10 @@ margin-right: 15px;
 padding: 16px 20px 20px;
 position: relative;
 width: 330px; */
+.rewif{
+    position: absolute;
+    width: 1300px;
+
 }
 .review-card img {
     width: 100px;
@@ -958,11 +1041,9 @@ width: 330px; */
 .review-card .header img {
     width: 80px;
     border: none;
+    font-family: "Rubik", serif;
     font-size: 12px;
     height: 100%;
-
-  
-
     object-fit: contain;
     
 
@@ -992,7 +1073,8 @@ width: 330px; */
 }
 .review-card .content {
     color: #333;
-    font-size: 14px;
+    font-family: "Rubik", serif;
+    font-size: 16px;
     line-height: 20px;
     margin-bottom: 15px;
 }
@@ -1030,7 +1112,7 @@ ol {
     background-color: white;
     border-radius: 8px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    width: 300px;
+    width: 350px;
     padding: 16px;
     text-align: center;
     overflow: hidden;
@@ -1044,6 +1126,7 @@ ol {
     color: white;
     padding: 4px 8px;
     border-radius: 4px;
+    font-family: "Rubik", serif;
     font-size: 12px;
     position: absolute;
     top: 16px;
@@ -1053,6 +1136,7 @@ ol {
     font-weight: bold;
     margin: 16px 0 8px;
     color: #333;
+    font-family: "Rubik", serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 22px;
@@ -1061,6 +1145,7 @@ ol {
 .author {
     display: flex;
     align-items: center;
+    font-family: "Rubik", serif;
     font-size: 14px;
     color: #757575;
 }
@@ -1119,6 +1204,7 @@ ol {
     width: 80%;
 }
 h1 {
+    font-family: "Rubik", serif;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -1131,6 +1217,7 @@ h1 {
 .store {
     width: 20%;
     margin-bottom: 10px;
+    font-family: "Rubik", serif;
     font-size: 16px;
     color: #666;
 }
@@ -1149,11 +1236,13 @@ h1 {
     align-items: flex-start;
 }
 .foter .logo-section h2 {
+    font-family: "Rubik", serif;
     font-size: 24px;
     color: #d34d43;
     margin: 0;
 }
 .foter .logo-section h2 span {
+    font-family: "Rubik", serif;
     font-size: 14px;
     font-weight: normal;
     color: #333;
@@ -1168,6 +1257,7 @@ h1 {
     height: 24px;
 }
 .foter .note {
+    font-family: "Rubik", serif;
     font-size: 12px;
     color: #666;
     margin-top: 10px;
@@ -1187,6 +1277,7 @@ h1 {
 .foter .links ul li a {
     text-decoration: none;
     color: #333;
+    font-family: "Rubik", serif;
     font-size: 14px;
 }
 .foter .links ul li a:hover {
@@ -1198,6 +1289,7 @@ h1 {
     align-items: center;
 }
 .foter .download-section p {
+    font-family: "Rubik", serif;
     font-size: 14px;
     text-align: center;
     margin: 0;
@@ -1226,6 +1318,7 @@ h1 {
     background-color: #e8e8e8;
     padding: 15px 20px;
     text-align: center;
+    font-family: "Rubik", serif;
     font-size: 14px;
     color: #666;
     display: flex;
@@ -1250,12 +1343,14 @@ h1 {
 .footer-extension .links a {
     text-decoration: none;
     color: #333;
+    font-family: "Rubik", serif;
     font-size: 14px;
 }
 .footer-extension .links a:hover {
     text-decoration: underline;
 }
 .footer-extension .copyright {
+    font-family: "Rubik", serif;
     font-size: 12px;
     color: #999;
     display: flex;
@@ -1264,6 +1359,7 @@ h1 {
     margin-bottom: 5px;
 }
 .footer-extension .notice {
+    font-family: "Rubik", serif;
     font-size: 12px;
     color: #666;
     text-align: center;
